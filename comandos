@@ -1,0 +1,12 @@
+git init - inicia um repositorio vazio se não existeir 1
+
+
+//
+git add . - adiciona todos os arquivos para o staged changes (local dos arquivos que vao ser empacotados pelo commit)
+git commit -m "mensagem falando sobre o que foi feito" - empacota os arquivos de staged e coloca um identificador e uma mensagem para as modificações
+git push - envia os arquivos para o github
+git status - verifica cada arquivo se está no stage ou não
+
+
+git checkout -b nome-da-nova-branch - cria uma nova branch (espaço de trabalho onde posso fazer varios commits separados da branch principal)
+git checkout nome-da-branch - muda de uma branch para outra..
